@@ -1,0 +1,12 @@
+# Core
+google-genai>=0.8.0
+python-dotenv>=1.0.0
+tenacity>=8.2.0
+
+# Data
+pandas>=2.0.0
+numpy>=1.26.0
+
+# Optional: clustering (comment out if not needed)
+sentence-transformers>=2.7.0
+scikit-learn>=1.4.0
