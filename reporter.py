@@ -50,7 +50,7 @@ def _build_bullet_log(rows: list[dict]) -> str:
 # AI-powered report via Ollama
 # ---------------------------------------------------------------------------
 
-AI_REPORT_PROMPT = """You are a senior technical project manager reviewing a developer's work history.
+AI_REPORT_PROMPT = """You are a senior technical project manager reviewing a developer's work history. Always respond in English only.
 
 Based ONLY on the work log below, write a clear 'Strategic Status Report' with these 4 sections:
 
