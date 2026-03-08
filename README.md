@@ -196,34 +196,6 @@ architecture, third-party SDK evaluation, and performance benchmarking.
 
 ---
 
-## Sample Master Report
-
-```
-## MASTER PROJECT REPORT
-
-### 1. OVERALL PROJECT STATUS
-The developer is split between active feature work and unresolved 
-infrastructure concerns, with planning conversations suggesting a 
-phase boundary approaching.
-
-### 2. TOP 3 PRIORITIES RIGHT NOW
-1. Resolve the async SDK blocker before it blocks the Feature cluster work
-2. Complete the integration tests flagged in the Architecture cluster
-3. Consolidate planning decisions into a written spec
-
-### 3. CROSS-CLUSTER CONNECTIONS
-The Research and Architecture clusters are tightly coupled — decisions 
-in one directly affect the other. The Planning cluster appears to be 
-waiting on both before moving forward.
-
-### 4. RECOMMENDED NEXT STEPS
-1. Schedule a sync between the Research findings and Architecture decisions
-2. Set a hard deadline for the Planning phase to avoid indefinite deferral
-3. Begin documentation now — the Feature cluster is mature enough
-```
-
----
-
 ## Tech Stack
 
 | Layer | Technology |
