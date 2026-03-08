@@ -271,6 +271,4 @@ chat_memo_tool/
 
 ---
 
-## License
 
-MIT — feel free to adapt for your own workflow.
