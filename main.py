@@ -84,7 +84,7 @@ def step_extract_and_classify() -> None:
 def step_cluster() -> None:
     from clustering import run_clustering
     log.info("Running clustering...")
-    run_clustering(db_path=cfg.db_path, num_clusters=cfg.num_clusters)
+    run_clustering(db_path=cfg.db_path, num_clusters=None, auto_find=True)
 
 
 def step_cluster_reports() -> dict:
